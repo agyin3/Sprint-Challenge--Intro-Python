@@ -17,3 +17,29 @@
 #     pass
 #
 # Put a comment noting which class is the base class
+
+# Define Vehicle Super Class
+class Vehicle:
+    pass
+
+# Class inherit from Vehicle
+class GroundVehicle(Vehicle):
+    pass
+
+class FlightVehicle(Vehicle):
+    pass
+
+# Class inherit from GroundVehicle
+class Car(GroundVehicle):
+    pass
+
+class Motorcycle(GroundVehicle):
+    pass
+
+# Class inherit from FlightVehicle
+
+class Airplane(FlightVehicle):
+    pass
+
+class Starship(FlightVehicle):
+    pass
